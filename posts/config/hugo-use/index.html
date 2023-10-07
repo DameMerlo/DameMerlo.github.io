@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>Hugo的搭建与使用 | Merlo&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。 content是博客文章的目录。 static是博客的静态资源，比如图">
+<meta name="description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) Hugo结合github-page(github.io)建站 - 简书 (jianshu.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。">
 <meta name="author" content="MeMeMe">
 <link rel="canonical" href="https://damemerlo.github.io/posts/config/hugo-use/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -56,7 +56,7 @@
 
     </style>
 </noscript><meta property="og:title" content="Hugo的搭建与使用" />
-<meta property="og:description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。 content是博客文章的目录。 static是博客的静态资源，比如图" />
+<meta property="og:description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) Hugo结合github-page(github.io)建站 - 简书 (jianshu.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://damemerlo.github.io/posts/config/hugo-use/" />
 <meta property="og:image" content="https://damemerlo.github.io/posts/config/img/10.jpg" /><meta property="article:section" content="posts" />
@@ -66,7 +66,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://damemerlo.github.io/posts/config/img/10.jpg" />
 <meta name="twitter:title" content="Hugo的搭建与使用"/>
-<meta name="twitter:description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。 content是博客文章的目录。 static是博客的静态资源，比如图"/>
+<meta name="twitter:description" content="学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com) Hugo结合github-page(github.io)建站 - 简书 (jianshu.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。"/>
 
 
 <script type="application/ld+json">
@@ -95,12 +95,12 @@
   "@type": "BlogPosting",
   "headline": "Hugo的搭建与使用",
   "name": "Hugo的搭建与使用",
-  "description": "学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius\u0026rsquo;s Blog (yuweihung.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。 content是博客文章的目录。 static是博客的静态资源，比如图",
+  "description": "学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius\u0026rsquo;s Blog (yuweihung.com) Hugo结合github-page(github.io)建站 - 简书 (jianshu.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。",
   "keywords": [
     
   ],
-  "articleBody": " 学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius’s Blog (yuweihung.com)\n目录结构：\nconfig.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。\nthemes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。\ncontent是博客文章的目录。\nstatic是博客的静态资源，比如图片\npublic是编译后的目标文件的目录。\n配置完成后，发布第一篇文章。\nhugo new post/my-first-post.md 其中有着 draft 选项。当 draft 为 true 的时候，默认是不会渲染的，渲染 draft 需要加 -D 的启动参数。 我们可以将 draft 改为 false，这样默认就可以渲染了。 一般来说，把draft: true去掉，加一些markdown语法的内容就可以了。 后续可以直接自己直接在编辑器里面 **content/post/**目录下创建 md 文件来写博客，比较方便。也可以在post里面创建多层目录，方便归类。\nhugo server -D 上传本地文件至github\ngit add . git commit -m \"site init\" hugo新建站点\nhugo new site -f yml git clone https://github.com/adityatelange/hugo-PaperMod.git hugo server hugo new post/blog.md hugo # 1. 进入public文件夹 cd public/ # 2. 初始化当前文件夹（此处就是public文件夹）为一个本地git仓库 git init # 3. 关联远程仓库。 # 远程仓库地址（git@github.com:username/username.github.io） # 可以进入github官网的username.github.io仓库-Code-SSH进行复制。（详见下图） git remote add origin git@github.com:username/username.github.io # 4. 把当前文件夹的所有文件加入到暂存区 git add . # 5. 把相关文件提交到本地仓库 git commit -m \"add hugo-test\" # 6. 把相关文件推送到远程仓库（github pages仓库） git push origin master 根据这篇学习HUGO ，详解目录结构 - 知乎 (zhihu.com)修改一下新建md时默认的内容\n",
-  "wordCount" : "692",
+  "articleBody": " 学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius’s Blog (yuweihung.com)\nHugo结合github-page(github.io)建站 - 简书 (jianshu.com)\n目录结构：\nconfig.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。\nthemes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。\ncontent是博客文章的目录。\nstatic是博客的静态资源，比如图片\npublic是编译后的目标文件的目录。\n配置完成后，发布第一篇文章。\nhugo new post/my-first-post.md 其中有着 draft 选项。当 draft 为 true 的时候，默认是不会渲染的，渲染 draft 需要加 -D 的启动参数。 我们可以将 draft 改为 false，这样默认就可以渲染了。 一般来说，把draft: true去掉，加一些markdown语法的内容就可以了。 后续可以直接自己直接在编辑器里面 **content/post/**目录下创建 md 文件来写博客，比较方便。也可以在post里面创建多层目录，方便归类。\nhugo server -D 上传本地文件至github\ngit add . git commit -m \"site init\" 根据这篇学习HUGO ，详解目录结构 - 知乎 (zhihu.com)修改一下新建md时默认的内容\nhugo新建站点\nhugo new site -f yml git clone https://github.com/adityatelange/hugo-PaperMod.git hugo server hugo new post/blog.md hugo # 1. 进入public文件夹 cd public/ # 2. 初始化当前文件夹（此处就是public文件夹）为一个本地git仓库 git init # 3. 关联远程仓库。 # 远程仓库地址（git@github.com:username/username.github.io） # 可以进入github官网的username.github.io仓库-Code-SSH进行复制。（详见下图） git remote add origin git@github.com:username/username.github.io # 4. 把当前文件夹的所有文件加入到暂存区 git add . # 5. 把相关文件提交到本地仓库 git commit -m \"add hugo-test\" # 6. 把相关文件推送到远程仓库（github pages仓库） git push origin master 执行完上面的一系列操作后，我们可以看到username.github.io仓库里面就有我们本地public文件夹里面的文件了。\n这时候访问 username.github.io ，就能展现出博客首页。但你可能得到的是一个样式有点异常的页面。\n访问博客首页，但样式有点不对头。F12打开控制台，错误提示integrity等\n这是因为在public/index.html引入样式文件（css文件）时，多了一个integrity属性导致的。\n临时解决方案：简单粗暴的删除该属性。这种方式有点饮鸩止渴，每次生成静态页面都要去修改一下。而且子页面也要一个一个去修改。放弃。 彻底解决方案：修改hugo.yml配置项。\n如下新增一行配置。（参考主题官网的FAQs的解决方案）\nparams: assets: disableFingerprinting: true 注意：修改配置文件后，要重复操作上面的hugo生成静态文件和git上传代码等。\n# 回到上一层目录（public文件夹的上一级目录） cd .. # 生成静态页面（即更新public文件夹内容） hugo # 进入public文件夹 cd public # git操作三部曲 git add . git commit -m \"update hugo.toml\" git push origin master 提交代码后，刷新页面，展示博客首页\n但当你点击博客首页标题【Second】的时候，会进入example Domain页面。而不是具体的文章页面。\n这是因为配置文件hugo.toml的baseUrl没有改成github.io地址。\nhugo.toml的baseUrl默认是example域,改成github.io地址\n修改配置文件后，再一次重复上面操作。\n终端要退回到my-hugo文件夹重新hugo指令生成public文件夹； 然后终端cd public，继续操作git指令操作的4-6步骤提交变更代码。 # 回到上一层目录（public文件夹的上一级目录） cd .. # 生成静态页面（即更新public文件夹内容） hugo # 进入public文件夹 cd public # git操作三部曲 git add . git commit -m \"update hugo.toml\" git push origin master 这样就能正确跳转的到子页面了。\n",
+  "wordCount" : "1506",
   "inLanguage": "en",
   "image":"https://damemerlo.github.io/posts/config/img/10.jpg","datePublished": "2023-10-06T20:04:38+08:00",
   "dateModified": "2023-10-06T20:04:38+08:00",
@@ -200,6 +200,7 @@
 
   <div class="post-content"><hr>
 <p>学习于：<a href="https://www.yuweihung.com/posts/2021/hugo-github-pages-blog/">利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&rsquo;s Blog (yuweihung.com)</a></p>
+<p><a href="https://www.jianshu.com/p/5cd34e17c69a">Hugo结合github-page(github.io)建站 - 简书 (jianshu.com)</a></p>
 <p>目录结构：</p>
 <ul>
 <li>
@@ -227,7 +228,8 @@
 </code></pre><p>上传本地文件至github</p>
 <pre tabindex="0"><code>git add .
 git commit -m &#34;site init&#34;
-</code></pre><p>hugo新建站点</p>
+</code></pre><p>根据这篇<a href="https://zhuanlan.zhihu.com/p/533522789?utm_id=0">学习HUGO ，详解目录结构 - 知乎 (zhihu.com)</a>修改一下新建md时默认的内容</p>
+<p>hugo新建站点</p>
 <pre tabindex="0"><code>hugo new site &lt;name of site&gt; -f yml
 
 git clone https://github.com/adityatelange/hugo-PaperMod.git
@@ -258,7 +260,62 @@ git commit -m &#34;add hugo-test&#34;
 
 # 6. 把相关文件推送到远程仓库（github pages仓库）
 git push origin master
-</code></pre><p>根据这篇<a href="https://zhuanlan.zhihu.com/p/533522789?utm_id=0">学习HUGO ，详解目录结构 - 知乎 (zhihu.com)</a>修改一下新建md时默认的内容</p>
+</code></pre><p>执行完上面的一系列操作后，我们可以看到username.github.io仓库里面就有我们本地public文件夹里面的文件了。</p>
+<p>这时候访问 username.github.io ，就能展现出博客首页。但你可能得到的是一个样式有点异常的页面。</p>
+<p>访问博客首页，但样式有点不对头。F12打开控制台，错误提示integrity等</p>
+<p>这是因为在<code>public/index.html</code>引入样式文件（css文件）时，多了一个integrity属性导致的。</p>
+<ul>
+<li>
+<ol>
+<li>临时解决方案：简单粗暴的删除该属性。这种方式有点饮鸩止渴，每次生成静态页面都要去修改一下。而且子页面也要一个一个去修改。<strong>放弃。</strong></li>
+</ol>
+</li>
+<li>
+<ol>
+<li>
+<p>彻底解决方案：修改hugo.yml配置项。</p>
+<p>如下新增一行配置。（参考主题官网的FAQs的解决方案）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">assets</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">disableFingerprinting</span>: <span style="color:#66d9ef">true</span> 
+</span></span></code></pre></div></li>
+</ol>
+</li>
+</ul>
+<p>注意：修改配置文件后，要重复操作上面的hugo生成静态文件和git上传代码等。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 回到上一层目录（public文件夹的上一级目录）</span>
+</span></span><span style="display:flex;"><span>cd ..
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 生成静态页面（即更新public文件夹内容）</span>
+</span></span><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 进入public文件夹</span>
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># git操作三部曲</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;update hugo.toml&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><p>提交代码后，刷新页面，展示博客首页</p>
+<p>但当你点击博客首页标题【Second】的时候，会进入example Domain页面。而不是具体的文章页面。</p>
+<p>这是因为配置文件hugo.toml的baseUrl没有改成github.io地址。</p>
+<p>hugo.toml的baseUrl默认是example域,改成github.io地址</p>
+<p>修改配置文件后，再一次重复上面操作。</p>
+<ol>
+<li>终端要退回到my-hugo文件夹重新<code>hugo</code>指令生成public文件夹；</li>
+<li>然后终端<code>cd public</code>，继续操作git指令操作的4-6步骤提交变更代码。</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 回到上一层目录（public文件夹的上一级目录）</span>
+</span></span><span style="display:flex;"><span>cd ..
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 生成静态页面（即更新public文件夹内容）</span>
+</span></span><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 进入public文件夹</span>
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># git操作三部曲</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;update hugo.toml&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><p>这样就能正确跳转的到子页面了。</p>
 
 
   </div>

@@ -22,7 +22,7 @@
       <pubDate>Fri, 06 Oct 2023 20:04:38 +0800</pubDate>
       
       <guid>https://damemerlo.github.io/posts/config/hugo-use/</guid>
-      <description>学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&amp;rsquo;s Blog (yuweihung.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。 content是博客文章的目录。 static是博客的静态资源，比如图</description>
+      <description>学习于：利用 Hugo 和 Github Pages 创建静态博客并实现自动部署 | Cassius&amp;rsquo;s Blog (yuweihung.com) Hugo结合github-page(github.io)建站 - 简书 (jianshu.com) 目录结构： config.toml 是配置文件，在里面可以定义博客地址，构建配置，标题，导航栏等等。 themes是主题目录，可以下载喜欢的主题，然后配置在config.toml里面。</description>
     </item>
     
   </channel>
