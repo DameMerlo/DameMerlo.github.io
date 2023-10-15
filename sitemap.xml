@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>https://damemerlo.github.io/</loc>
     <lastmod>2023-10-06T20:50:24+08:00</lastmod>
   </url><url>
@@ -10,6 +11,22 @@
   </url><url>
     <loc>https://damemerlo.github.io/categories/</loc>
     <lastmod>2023-10-06T20:50:24+08:00</lastmod>
+=======
+    <loc>https://damemerlo.github.io/posts/kaoyan/%E7%AC%AC%E4%B8%80%E5%91%A810.9-10.15-%E4%B8%80%E5%91%A8%E5%91%A8%E6%8A%A5/</loc>
+    <lastmod>2023-10-16T00:04:38+08:00</lastmod>
+  </url><url>
+    <loc>https://damemerlo.github.io/</loc>
+    <lastmod>2023-10-16T00:04:38+08:00</lastmod>
+  </url><url>
+    <loc>https://damemerlo.github.io/posts/</loc>
+    <lastmod>2023-10-16T00:04:38+08:00</lastmod>
+  </url><url>
+    <loc>https://damemerlo.github.io/categories/</loc>
+    <lastmod>2023-10-16T00:04:38+08:00</lastmod>
+  </url><url>
+    <loc>https://damemerlo.github.io/categories/%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2023-10-16T00:04:38+08:00</lastmod>
+>>>>>>> 1c17d18 (add zhoubao1)
   </url><url>
     <loc>https://damemerlo.github.io/posts/kaoyan/thinktime/</loc>
     <lastmod>2023-10-06T20:50:24+08:00</lastmod>
@@ -20,9 +37,12 @@
     <loc>https://damemerlo.github.io/posts/config/hugo-use/</loc>
     <lastmod>2023-10-06T20:04:38+08:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>https://damemerlo.github.io/categories/%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2023-10-06T20:04:38+08:00</lastmod>
   </url><url>
+=======
+>>>>>>> 1c17d18 (add zhoubao1)
     <loc>https://damemerlo.github.io/tags/</loc>
   </url><url>
     <loc>https://damemerlo.github.io/archives/</loc>
